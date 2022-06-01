@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="4"  name="Test">
+  <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="comSauceDemoPOMTestClasses.TC02LogOutFuctionality"/>
+      <class name="comSauceDemoPOMTestClasses.TC04MultiProductFunctionality"/>
+      <class name="comSauceDemoPOMTestClasses.TC03SingleProductBuyFunctionality"/>
+      
+      <class name="comSauceDemoPOMTestClasses.TC01LoginFunction"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
